@@ -1,6 +1,13 @@
-# laravel-migrations-table-snippets
-Table name already created and having large data inside need only migration name insert into migrations table.<br/>
-**Note:** Adjust code in routes/web.php according to your need, run once.<br/> 
-This code snippets help you if have missing some migration filename, in your migrations table.
-Delete all records inside the migrations table,<br/> **Don't forget to take backup of migrations table before execute this code.** <br/>
-This code helps you without losing your data, standardize migrations table.<br/> **__Only use this code if you know what you are doing.__**
+# Fix Missing Migration File Names in the Migrations Table Without Losing Data
+Description:
+If you have a table that already exists with large amounts of data but the migration name is missing in the migrations table, this snippet will help you insert the migration names into the table.
+
+Instructions:
+
+Place the code in your routes/web.php file and adjust it according to your project requirements.
+Run the code only once to update the migrations table.
+Ensure you take a backup of the migrations table before executing the code.
+Warning:
+Use this snippet only if you're experienced and fully understand the implications. Improper use can lead to database inconsistencies.
+
+This approach ensures the migrations table is standardized without affecting your existing data.
